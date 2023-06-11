@@ -1,9 +1,3 @@
-/**
- * Created by Mihnea-Alexandru Serban
- * Date : 30.08.2022
- * Time : 19:21
- * Project Name : Rsvti
- */
 package config;
 
 import jakarta.persistence.TypedQuery;
