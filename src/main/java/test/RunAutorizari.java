@@ -37,7 +37,7 @@ public class RunAutorizari {
 
     private static void updateAutorizari() {
         Autorizari autorizari = (Autorizari) autorizariService.findById(2, Autorizari.class);
-        autorizari.setNrRaport("Cornel2");
+        autorizari.setNrRaport("203-1891");
         autorizari.setNrSerie("01012005");
         autorizariService.updateAutorizari(autorizari);
         System.out.println(autorizari);
@@ -46,6 +46,7 @@ public class RunAutorizari {
     private static void addTableAutorizari() {
 
         Autorizari autorizare1 = new Autorizari();
+        autorizare1.setNrRaport("389-1321");
         autorizare1.setNrSerie("2345");
         autorizariService.addAutorizari(autorizare1);
 

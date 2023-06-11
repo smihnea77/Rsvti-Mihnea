@@ -1,4 +1,3 @@
-import model.User;
 import service.*;
 import utils.*;
 
@@ -505,7 +504,7 @@ public class Main {
         UserService userService = new UserService();
 
 
-        userService.findById(2, User.class);
+        //userService.findById(2, User.class);
         System.out.println("Valoarea gasita pentru findByID: 2 este: " + "............");
 
 

@@ -1,5 +1,6 @@
 # Rsvti-Mihnea
 RSVTI project
+
 O baza de date cu informatii privind echipamentele ISCIR din cadrul firmelor.
 
 1. Users

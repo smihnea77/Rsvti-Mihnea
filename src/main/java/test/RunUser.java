@@ -38,8 +38,8 @@ public class RunUser {
 
     private static void updateUser() {
         User user = (User) userService.findById(2, User.class);
-        user.setFirstname("Cornel2");
-        user.setLastname("Lupu2");
+        user.setFirstname("Mihnea2");
+        user.setLastname("Serban2");
         userService.updateUser(user);
         System.out.println(user);
     }
@@ -53,11 +53,11 @@ public class RunUser {
 
         // User 1
         User user1 = new User();
-        user1.setFirstname("Mihai");
-        user1.setLastname("Dumitru");
-        user1.setMail("mihai@sda.ro");
-        user1.setUsername("Mihai");
-        user1.setPassword("1111");
+        user1.setFirstname("Michael");
+        user1.setLastname("Schwarz");
+        user1.setMail("michael@rsvti.ro");
+        user1.setUsername("Michael");
+        user1.setPassword("1211");
         userService.addUser(user1);
         System.out.println(user1);
 
@@ -67,21 +67,21 @@ public class RunUser {
 
         // User 2
         User user2 = new User();
-        user2.setFirstname("Cornel");
-        user2.setLastname("Lupu");
-        user2.setMail("cornel@sda.ro");
-        user2.setUsername("Cornel");
-        user2.setPassword("2222");
+        user2.setFirstname("Jakob");
+        user2.setLastname("Schmidt");
+        user2.setMail("jakob@rsvti.ro");
+        user2.setUsername("Jakob");
+        user2.setPassword("2221");
         userService.addUser(user2);
         System.out.println(user2);
 
         // User 3
         User user3 = new User();
-        user3.setFirstname("Mihnea");
-        user3.setLastname("Serban");
-        user3.setMail("mihnea@sda.ro");
-        user3.setUsername("Mihnea");
-        user3.setPassword("2222");
+        user3.setFirstname("Susanne");
+        user3.setLastname("Schneider");
+        user3.setMail("susanne@rsvti.ro");
+        user3.setUsername("Susanne");
+        user3.setPassword("2223");
         userService.addUser(user3);
 
         // List

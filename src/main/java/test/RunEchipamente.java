@@ -37,7 +37,7 @@ public class RunEchipamente {
 
     private static void updateEchipamente() {
         Echipamente echipamente = (Echipamente) echipamenteService.findById(2, Echipamente.class);
-        echipamente.setTipEchipament("Cornel2");
+        echipamente.setTipEchipament("Mihnea2");
         echipamente.setNrSerie("01012005");
         echipamenteService.updateEchipamente(echipamente);
         System.out.println(echipamente);

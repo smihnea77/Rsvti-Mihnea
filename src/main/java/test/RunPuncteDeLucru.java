@@ -48,7 +48,7 @@ public class RunPuncteDeLucru {
         // Punct 1
         PuncteDeLucru punct1 = new PuncteDeLucru();
         punct1.setLocalitate("Brasov");
-        punct1.setStrada("Zizinului");
+        punct1.setStrada("Michael Weiss");
         punct1.setNumar("10");
         punct1.setJudet("Brasov");
         puncteDeLucruService.addPuncteDeLucru(punct1);

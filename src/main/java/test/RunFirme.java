@@ -47,7 +47,7 @@ public class RunFirme {
 
         // Firma 1
         Firme firma1 = new Firme();
-        firma1.setNumeFirma("Asisco Tehnic SRL");
+        firma1.setNumeFirma("Farmacia Tei SRL");
         firma1.setCui(22280483);
         firma1.setRecom("J08/46/2010");
         firme.addFirme(firma1);
@@ -55,7 +55,7 @@ public class RunFirme {
 
         // Firma 2
         Firme firma2 = new Firme();
-        firma1.setNumeFirma("Caramida SRL");
+        firma1.setNumeFirma("Mall Vitan SRL");
         firma1.setCui(22280483);
         firma1.setRecom("J20/34/2010");
         firme.addFirme(firma2);
