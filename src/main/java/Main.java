@@ -5,13 +5,6 @@ import java.util.Scanner;
 
 import static login.Register.recordYourAccount;
 
-/**
- * Created by Mihnea-Alexandru Serban
- * Date : 05.09.2022
- * Time : 11:38
- * Project Name : Rsvti Mihnea 5.09
- */
-
 public class Main {
     public static void main(String[] args) {
         recordYourAccount();
